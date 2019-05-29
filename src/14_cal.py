@@ -23,6 +23,10 @@ import sys
 import calendar
 from datetime import datetime
 
+"""
+Brady used the sys arguments which makes sense seeing as the sys module was imported
+"""
+
 def render_calendar(month, year):
     c = calendar.TextCalendar(calendar.SUNDAY) 
     str = c.formatmonth(year, month)
